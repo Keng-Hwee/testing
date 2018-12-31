@@ -5,11 +5,12 @@ Spyder Editor
 This is a temporary script file.
 """
 
-def test(x,y):
-    return x+y
+def test(x,y,z):
+    print("printing the sum ...")
+    return x+y+z
 
-def new_feature(x,y):
-    return x+y
+def new_feature(x,y,z):
+    return x+y+(2*z*z)
 
 def feature1(x,y):
     return x+y+x+y
