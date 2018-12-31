@@ -10,3 +10,6 @@ def test(x,y):
 
 def new_feature(x,y):
     return x+y
+
+def feature1(x,y):
+    return x+y+x+y
